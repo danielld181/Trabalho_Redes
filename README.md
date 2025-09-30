@@ -9,14 +9,13 @@ Este projeto implementa um sistema de monitoramento de tráfego de rede em tempo
 ### Componentes Principais:
 - **Monitor de Captura**: Coleta dados de tráfego de rede
 - **Sistema de Agregação**: Processa dados em janelas temporais
-- **API REST**: Serve dados em formato JSON
 - **Interface Web**: Dashboard interativo com gráficos
 - **Gerador de Tráfego**: Simula atividade de rede para testes
 
 ### Tecnologias Utilizadas:
 - **Backend**: Python 3 com Scapy, Pandas
 - **Monitoramento**: Análise de interfaces de rede e conexões TCP/UDP
-- **Dados**: Export para Excel com múltiplas planilhas
+- **Dados**: Export para Excel
 - **Ambiente**: NixOS com ambiente isolado
 
 ## 🚀 Configuração do Ambiente
